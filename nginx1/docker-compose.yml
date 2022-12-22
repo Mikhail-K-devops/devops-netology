@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+    mainnginx:
+        container_name: nginx-cont
+        image: nginx-image
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - "8080:8080"
