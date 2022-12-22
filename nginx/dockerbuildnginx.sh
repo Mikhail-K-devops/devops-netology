@@ -1,3 +1,13 @@
+#!/bin/bash
+
+# Запрос кто я.
+echo "Вывод кто я: $(whoami)"
+
+# Сборка нового образа
+mkdir -p /nginxmk1
+cd /nginxmk1
+touch Dockerfile
+cat << EOF > Dockerfile
 	FROM centos:7
 	MAINTAINER MikhailK <mk_0@bk.ru>
 	ENV TZ=Europe/Moscow
@@ -10,3 +20,6 @@
 
 	CMD [ "nginx" ]
 
+EOF
+
+docker build -t mikhailk/nginx:1.0.0 .
