@@ -1,5 +1,6 @@
 # ignore old files, dockerfiles, terraform --folders
 oldata/
+olddata/get-docker.sh
 Dockerfile/
 terraform/
 /devops-netology
