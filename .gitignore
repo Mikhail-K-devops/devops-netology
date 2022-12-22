@@ -1,5 +1,5 @@
 # ignore old files, dockerfiles, terraform --folders
-oldata/
+/oldata/*
 Dockerfile/
 terraform/
 /devops-netology
