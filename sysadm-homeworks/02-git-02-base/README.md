@@ -39,7 +39,7 @@
 1. Gitlab. Для [регистрации](https://gitlab.com/users/sign_up)  можно использовать 
 аккаунт google, github и другие.
 
-		https://gitlab.com/Mikhail-K-devops/devops-netology
+	✨	[GL](https://gitlab.com/Mikhail-K-devops/devops-netology)
  
 1. После регистрации или авторизации в gitlab создайте новый проект, нажав на ссылку `Create a projet`. 
 Желательно назвать также, как и в гитхабе `devops-netology` и `visibility level` выбрать `Public`.
@@ -66,6 +66,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.
 1. Обратите внимание как изменился результат работы команды `git remote -v`.
 
+✨
 ```
 		git remote add gitlab git@gitlab.com:Mikhail-K-devops/devops-netology.git
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v		
@@ -88,6 +89,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 `git remote add bitbucket ...`.
 1. Обратите внимание, как изменился результат работы команды `git remote -v`.
 
+✨
 ```
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
 		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (fetch)
@@ -145,7 +147,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
     * В гитлабе – https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags
     * В битбакете – список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
-		
+✨		
 **gh**
 ```
 Tags
@@ -184,7 +186,8 @@ v00.00.00
 1. Теперь измените содержание файла `README.md`, добавив новую строчку.
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
-	
+
+✨	
 [![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)]
 ```
 mikhailk@Jinhae-PC:~/devops-netology$ git log
@@ -214,6 +217,7 @@ https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html – здес
 
 - В личном кабинете отправлены ссылки на ваши репозитории.
 
+✨
 	[GH](https://github.com/Mikhail-K-devops/devops-netology)
 	[GL](https://gitlab.com/Mikhail-K-devops/devops-netology)
 	[BB](https://bitbucket.org/mikhail-k-devops/devops-netology/src/main/) 
