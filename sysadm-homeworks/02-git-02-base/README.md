@@ -68,6 +68,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Обратите внимание как изменился результат работы команды `git remote -v`.
 
 ✨
+
 ```
 		git remote add gitlab git@gitlab.com:Mikhail-K-devops/devops-netology.git
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v		
@@ -91,6 +92,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Обратите внимание, как изменился результат работы команды `git remote -v`.
 
 ✨
+
 ```
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
 		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (fetch)
@@ -190,7 +192,7 @@ v00.00.00
 
 ✨
 	
-[![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)]
+![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)
 
 ✨
 ```
