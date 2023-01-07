@@ -145,8 +145,9 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
     * В гитлабе – https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags
     * В битбакете – список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
-```		
-		 Tags
+```md		
+**gh**
+Tags
 v00.00.02
 Toggle commit message
  11 minutes ago  95efe76  zip  tar.gz
@@ -154,11 +155,13 @@ v00.00.00
 Toggle commit message
  6 minutes ago  adcf911  zip  tar.gz
 
+**gl**
 Tags
 2
 v00.00.00
 v00.00.02
 
+**bb**
 Tags
 v00.00.01
 v00.00.02
