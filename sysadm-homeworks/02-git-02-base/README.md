@@ -66,6 +66,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.
 1. Обратите внимание как изменился результат работы команды `git remote -v`.
 
+```
 		git remote add gitlab git@gitlab.com:Mikhail-K-devops/devops-netology.git
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v		
 		gitlab  git@gitlab.com:Mikhail-K-devops/devops-netology.git (fetch)
@@ -73,7 +74,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
 		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
-
+```
 
 
 ### Bitbucket* (задание, не обязательное к выполнению)
@@ -87,6 +88,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 `git remote add bitbucket ...`.
 1. Обратите внимание, как изменился результат работы команды `git remote -v`.
 
+```
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
 		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (fetch)
 		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (push)
@@ -95,7 +97,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
 		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
-
+```
 
 
 
@@ -143,7 +145,27 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
     * В гитлабе – https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags
     * В битбакете – список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
-## Задание №3. Ветки 
+```		
+		 Tags
+v00.00.02
+Toggle commit message
+ 11 minutes ago  95efe76  zip  tar.gz
+v00.00.00
+Toggle commit message
+ 6 minutes ago  adcf911  zip  tar.gz
+
+Tags
+2
+v00.00.00
+v00.00.02
+
+Tags
+v00.00.01
+v00.00.02
+v00.00.00
+```
+
+## Задание №3. Ветки
 
 Давайте посмотрим, как будет выглядеть история коммитов при создании веток. 
 
