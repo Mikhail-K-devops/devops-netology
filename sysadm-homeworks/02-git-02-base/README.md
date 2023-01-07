@@ -54,11 +54,13 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Запомните вывод команды `git remote -v`.
 
 ✨
+```
 		git remote set-url --add origin git@gitlab.com:Mikhail-K-devops/devops-netology.git
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
 		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+```
 
 1. В связи с тем, что это будет наш дополнительный репозиторий, ни один вариант из перечисленных в инструкции (на странице 
 вновь созданного репозитория) нам не подходит. Поэтому добавляем этот репозиторий как дополнительный `remote` к созданному
@@ -150,8 +152,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
     * В гитлабе – https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags
     * В битбакете – список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
-✨		
-**gh**
+✨**gh**
 ```
 Tags
 v00.00.02
