@@ -185,7 +185,12 @@ v00.00.00
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
 	
-[![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)](mm)
+[![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)]
+```
+mikhailk@Jinhae-PC:~/devops-netology$ git log
+commit b1a672ed1171a0568ae22cbdfd2edc3bb1613d2d (HEAD -> fix, origin/fix)
+```
+
 
 ## Задание №4. Упрощаем себе жизнь
 
@@ -209,6 +214,9 @@ https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html – здес
 
 - В личном кабинете отправлены ссылки на ваши репозитории.
 
+	[GH](https://github.com/Mikhail-K-devops/devops-netology)
+	[GL](https://gitlab.com/Mikhail-K-devops/devops-netology)
+	[BB](https://bitbucket.org/mikhail-k-devops/devops-netology/src/main/) 
 
 ### Критерии оценки
 
