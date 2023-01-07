@@ -37,7 +37,10 @@
 
 Создадим аккаунт в Gitlab, если у вас его еще нет:
 1. Gitlab. Для [регистрации](https://gitlab.com/users/sign_up)  можно использовать 
-аккаунт google, github и другие. 
+аккаунт google, github и другие.
+
+		https://gitlab.com/Mikhail-K-devops/devops-netology
+ 
 1. После регистрации или авторизации в gitlab создайте новый проект, нажав на ссылку `Create a projet`. 
 Желательно назвать также, как и в гитхабе `devops-netology` и `visibility level` выбрать `Public`.
 1. Галочку `Initialize repository with a README` луше не ставить, чтобы не пришлось разрешать конфликты.
@@ -49,12 +52,29 @@
 https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлагаемые варианты для начала работы в репозитории в секции
 `Command line instructions`. 
 1. Запомните вывод команды `git remote -v`.
+
+		git remote set-url --add origin git@gitlab.com:Mikhail-K-devops/devops-netology.git
+		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
+		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+
 1. В связи с тем, что это будет наш дополнительный репозиторий, ни один вариант из перечисленных в инструкции (на странице 
 вновь созданного репозитория) нам не подходит. Поэтому добавляем этот репозиторий как дополнительный `remote` к созданному
 репозиторию в рамках предыдущего домашнего задания:
 `git remote add gitlab https://gitlab.com/YOUR_LOGIN/devops-netology.git`.
 1. Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.
 1. Обратите внимание как изменился результат работы команды `git remote -v`.
+
+		git remote add gitlab git@gitlab.com:Mikhail-K-devops/devops-netology.git
+		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v		
+		gitlab  git@gitlab.com:Mikhail-K-devops/devops-netology.git (fetch)
+		gitlab  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
+		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+
+
 
 ### Bitbucket* (задание, не обязательное к выполнению)
 
@@ -66,6 +86,18 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 1. Аналогично gitlab, на странице вновь созданного проекта выберите `https`, чтобы получить ссылку и добавьте этот репозиторий как 
 `git remote add bitbucket ...`.
 1. Обратите внимание, как изменился результат работы команды `git remote -v`.
+
+		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
+		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (fetch)
+		bitbucket       git@bitbucket.org:mikhail-k-devops/devops-netology.git (push)
+		gitlab  git@gitlab.com:Mikhail-K-devops/devops-netology.git (fetch)
+		gitlab  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
+		origin  git@github.com:Mikhail-K-devops/devops-netology.git (push)
+		origin  git@gitlab.com:Mikhail-K-devops/devops-netology.git (push)
+
+
+
 
 Если все проделано правильно, то результат команды `git remote -v` должен быть следующий:
 ```bash
