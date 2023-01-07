@@ -53,6 +53,7 @@ https://gitlab.com/YOUR_LOGIN/devops-netology и изучите предлага
 `Command line instructions`. 
 1. Запомните вывод команды `git remote -v`.
 
+✨
 		git remote set-url --add origin git@gitlab.com:Mikhail-K-devops/devops-netology.git
 		mikhailk@Jinhae-PC:~/devops-netology$ git remote -v
 		origin  git@github.com:Mikhail-K-devops/devops-netology.git (fetch)
@@ -158,14 +159,14 @@ v00.00.00
 Toggle commit message
  6 minutes ago  adcf911  zip  tar.gz
 ```
-**gl**
+✨**gl**
 ```
 Tags
 2
 v00.00.00
 v00.00.02
 ```
-**bb**
+✨**bb**
 ```
 Tags
 v00.00.01
@@ -187,8 +188,11 @@ v00.00.00
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
 
-✨	
+✨
+	
 [![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)]
+
+✨
 ```
 mikhailk@Jinhae-PC:~/devops-netology$ git log
 commit b1a672ed1171a0568ae22cbdfd2edc3bb1613d2d (HEAD -> fix, origin/fix)
