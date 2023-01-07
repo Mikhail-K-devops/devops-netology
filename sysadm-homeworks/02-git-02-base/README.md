@@ -184,6 +184,8 @@ v00.00.00
 1. Теперь измените содержание файла `README.md`, добавив новую строчку.
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
+	
+[![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-02-base/netgraph.jpg)](mm)
 
 ## Задание №4. Упрощаем себе жизнь
 
