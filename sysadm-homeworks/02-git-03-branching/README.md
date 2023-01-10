@@ -71,6 +71,14 @@ done
 ```
 Теперь скрипт будет отображать каждый переданный ему параметр отдельно. 
 
+#
+```
+mikhailk@Jinhae-PC:~/devops-netology/sysadm-homeworks/02-git-03-branching$ git branch
+  fix
+* git-merge
+  main
+```
+
 5. Создайте коммит `merge: use shift` и отправьте изменения в репозиторий. 
 
 #### Изменим main  
