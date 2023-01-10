@@ -71,15 +71,26 @@ done
 ```
 Теперь скрипт будет отображать каждый переданный ему параметр отдельно. 
 
-#
+✨
 ```
 mikhailk@Jinhae-PC:~/devops-netology/sysadm-homeworks/02-git-03-branching$ git branch
   fix
 * git-merge
   main
 ```
-
 5. Создайте коммит `merge: use shift` и отправьте изменения в репозиторий. 
+
+✨
+```
+mikhailk@Jinhae-PC:~/devops-netology/sysadm-homeworks/02-git-03-branching$ git log --oneline
+fdb5d09 (HEAD -> git-merge, origin/git-merge) merge: use shift
+de630db merge: @ instead *
+876e48a merge: @ instead *
+5d7c3b0 (origin/main, origin/HEAD, main) prepare for merge and rebase
+8f29a15 (bitbucket/main) prepare for merge and rebase
+```
+
+
 
 #### Изменим main  
 1. Вернитесь в ветку `main`. 
