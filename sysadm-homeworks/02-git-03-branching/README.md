@@ -1,4 +1,4 @@
-# ✨INPROGRESS
+# ✨RDY
 
 ## Домашнее задание к занятию «2.3. Ветвления в Git»
 
@@ -272,6 +272,7 @@ Fast-forward
 ----
 
 ✨
+
 ![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-03-branching/Network_Graph_Mikhail_K_devops.png)
 *after 1st merge
 ![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-03-branching/Network_Graph_Mikhail_K_devops_merge.png)
