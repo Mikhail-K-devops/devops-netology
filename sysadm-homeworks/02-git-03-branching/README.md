@@ -270,6 +270,14 @@ Fast-forward
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории*
  
 ----
+
+✨
+![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-03-branching/Network_Graph_Mikhail_K_devops.png)
+*after 1st merge
+![netgraph](https://github.com/Mikhail-K-devops/devops-netology/blob/main/sysadm-homeworks/02-git-03-branching/Network_Graph_Mikhail_K_devops_merge.png)
+
+
+✨
 ```
 mikhailk@Jinhae-PC:~/devops-netology/sysadm-homeworks/02-git-03-branching$ git log --oneline
 06c51b9 (HEAD -> main) Merge branch 'git-rebase' into main
@@ -282,8 +290,6 @@ de630db merge: @ instead *
 876e48a merge: @ instead *
 5d7c3b0 prepare for merge and rebase
 ```
-
-
 
 ### Правила приема домашнего задания
 
