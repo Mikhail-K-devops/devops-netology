@@ -270,6 +270,20 @@ Fast-forward
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории*
  
 ----
+```
+mikhailk@Jinhae-PC:~/devops-netology/sysadm-homeworks/02-git-03-branching$ git log --oneline
+06c51b9 (HEAD -> main) Merge branch 'git-rebase' into main
+87b5082 (origin/git-rebase, git-rebase) Merge branch 'git-merge' into main
+39747a3 (origin/main, origin/HEAD) Merge branch 'git-merge' into main
+33b9b09 rebase: chng oneline
+5ae3051 (origin/git-merge, git-merge) merge: use shift
+fdb5d09 merge: use shift
+de630db merge: @ instead *
+876e48a merge: @ instead *
+5d7c3b0 prepare for merge and rebase
+```
+
+
 
 ### Правила приема домашнего задания
 
