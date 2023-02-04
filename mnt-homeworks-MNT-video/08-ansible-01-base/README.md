@@ -120,11 +120,7 @@ Encryption successful
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
 
 ```markdown
-mikhailk@Jinhae-PC:~/devops-netology/mnt-homeworks-MNT-video/08-ansible-01-base/playbook$ ansible-playbook -i inventory/prod.yml site.yml
-
-PLAY [Print os facts] ********************************************************************************************************************************************************************************************************
-ERROR! Attempting to decrypt but no vault secrets found
-$ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
+mikhailk@Jinhae-PC:~/devops-netology/mnt-homeworks-MNT-video/08-ansible-01-base/playbook$ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 Vault password: 
 
 PLAY [Print os facts] ********************************************************************************************************************************************************************************************************
