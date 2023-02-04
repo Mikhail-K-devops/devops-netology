@@ -151,6 +151,9 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 ```
 
 9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
+```markdown
+control node - local
+```
 10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
 ```markdown
 ---
